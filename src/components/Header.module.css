@@ -1,0 +1,21 @@
+.header {
+  background: #000;
+  height: 12.5rem;
+  display: flex;
+  justify-content: center;
+
+}
+
+.logo {
+  padding-top: 1.5rem;
+  width: 12rem;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.logo img {
+
+  width: 126px;
+  height: 48px;
+}
