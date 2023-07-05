@@ -1,5 +1,5 @@
 # To-Do-List
-To-Do-List feito com Reack - primeiro desafio ignite 
+To-Do-List feito com React - primeiro desafio ignite 
 
 ![image](https://github.com/DouglasPortoo/To-Do-List/assets/129231898/b99e6531-3147-4d80-bce9-04ffafbc81bd)
 
