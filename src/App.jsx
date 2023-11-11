@@ -14,7 +14,7 @@ function App() {
 
   const [countTask, setCountTask] = useState(0);
 
-  let taskCompleteCount = tasks.filter(function (task) {
+  let taskCompleteCount = tasks.filter((task) => {
     return task.isComplete;
   }).length;
 
@@ -37,7 +37,7 @@ function App() {
 
   function handleIsComplete(id) {
     setTasks(
-      tasks.map(function (task) {
+      tasks.map( (task) => {
         if (task.id === id) {
           task.isComplete = !task.isComplete;
         }
