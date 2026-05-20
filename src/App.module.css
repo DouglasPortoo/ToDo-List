@@ -62,6 +62,7 @@
   text-decoration: line-through;
   color: hsl(0, 0%, 50%);
   width: 622px;
+  font-size: 25px;
 }
 
 .notDone {
@@ -69,6 +70,7 @@
   text-align: start;
   margin: 0 20px 0 20px;
   width: 622px;
+  font-size: 25px;
 
 }
 
@@ -83,8 +85,9 @@
   border-radius: 9999px;
   background: none;
   transition: opacity 0.15s, background-color 0.15s, border 0.15s;
-  height: 15px;
-  width: 15px;
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
 
   &:focus-visible,
   &:hover {
@@ -131,39 +134,39 @@
 
 .counter2 {
   display: flex;
-  width: 135px;
   justify-content: space-between;
 }
 
 .counter {
   display: flex;
-  width: 135px;
   justify-content: space-between;
 }
 
 .counter2 p {
-  height: 19px;
-  width: 50px;
+  
+  padding: 0 10px;
   background: #333333;
   border-radius: 50px;
-  text-align: center;
+  
+  
 }
 
 .counter p {
-  height: 19px;
-  width: 25px;
+  padding: 0 10px;
   background: #333333;
   border-radius: 50px;
-  text-align: center;
+  
 }
 
 
 .counter strong {
   color: #4EA8DE;
+  margin-right: 10px;
 }
 
 .counter2 strong {
   color: #4EA8DE;
+  margin-right: 10px;
 }
 
 
